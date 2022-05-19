@@ -8,14 +8,12 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-
     margin-top: -20px;
 }
 
 form {
     display: flex;
     flex-direction: column;
-
     width: 30%;
 }
 
@@ -41,9 +39,7 @@ form fieldset {
 form .termos {
     display: flex;
     flex-direction: row;
-
     align-items: center;
-
     margin-top: 5px;
 }
 
@@ -52,7 +48,6 @@ form .botoes {
     flex-direction: space;
     align-items: center;
     justify-content: space-evenly;
-
     margin-top: 5px;
 }
 
@@ -63,4 +58,5 @@ form .botoes {
 
 .botoes button:hover {
     color: purple;
+    background-color: blueviolet;
 }
