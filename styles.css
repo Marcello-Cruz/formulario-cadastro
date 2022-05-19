@@ -1,0 +1,79 @@
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: turquoise;
+}
+    
+    
+    
+    .form-cadastro {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    }
+    
+    
+    
+    form {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    }
+    
+    
+    
+    form h1 {
+    align-self: center;
+    margin-bottom: 2%;
+    }
+    
+    
+    
+    form input {
+    margin-bottom: 5px;
+    border-radius: 5px;
+    }
+    
+    
+    
+    .endereco {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    
+    
+    form fieldset {
+    margin-top: 5px;
+    }
+    
+    
+    
+    form .termos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 5px;
+    }
+    
+    
+    
+    form .botoes {
+    display: flex;
+    flex-direction: space;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+    
+    margin-top: 5px;
+    }
+    
+    
+    
+    .botoes button {
+    width: 40%;
+    border-radius: 5px;
+    }
