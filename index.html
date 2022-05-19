@@ -1,119 +1,86 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-body {
-    background-color: turquoise;
-}
-</style>
-<link rel="stylesheet" href="style.css">
-<title>Formulário de Cadastro</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Formulário de Cadastro</title>
 </head>
 
-
-
 <body>
-<div class="form-cadastro">
-<form>
-<h1>Cadastro</h1>
+    <div class="form-cadastro">
+        <form>
+            <h1>Cadastro</h1>
+            <style>
+                body {
+                    background-color: turquoise;
+                }
+                </style>
+            
 
+            <label for="nome">Nome Completo</label>
+            <input type="text" name="nome" id="nome">
 
+            <label for="email">E-mail</label>
+            <input type="email" name="email" id="email">
 
-<label for="nome">Nome Completo</label>
-<input type="text" name="nome" id="nome">
+            <label for="telefone">Telefone</label>
+            <input type="tel" name="telefone" id="telefone">
 
-<br/>
-<label for="email">E-mail</label>
-<input type="email" name="email" id="email">
+            <div class="endereco">
+                <label for="logradouro">Logradouro</label>
+                <input type="text" name="logradouro" id="logradouro">
 
+                <label for="numero">Número</label>
+                <input type="number" name="numero" id="numero">
 
-<br/>
+                <label for="bairro">Bairro</label>
+                <input type="text" name="bairro" id="bairro">
 
-<label for="telefone">Telefone</label>
-<input type="tel" name="telefone" id="telefone">
+                <label for="cidade">Cidade</label>
+                <input type="text" name="cidade" id="cidade">
 
+                <label for="estado">Estado</label>
+                <input type="text" name="estado" id="estado">
 
-<br/>
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep">
+            </div>
 
-<div class="endereco">
-<label for="logradouro">Logradouro</label>
-<input type="text" name="logradouro" id="logradouro">
+            <label for="estado-civil">Estado Civil</label>
+            <select name="estado-civil" id="estado-civil">
+                <option value="solteiro">Solteiro(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+                <option value="viuvo">Viúvo(a)</option>
+                <option value="separado">Separado(a)</option>
+            </select>
 
+            <fieldset>
+                <legend>Preferência de contato</legend>
+                <input type="radio" name="contato" id="por-email"
+                    value="por-email">
+                <label for="por-email">E-mail</label>
+                <input type="radio" name="contato" id="por-telefone"
+                    value="por-telefone">
+                <label for="por-telefone">Telefone</label>
+            </fieldset>
 
-<br/>
-
-<label for="numero">Número</label>
-<input type="number" name="numero" id="numero">
-
-
-<br/>
-
-<label for="bairro">Bairro</label>
-<input type="text" name="bairro" id="bairro">
-
-<br/>
-
-
-<label for="cidade">Cidade</label>
-<input type="text" name="cidade" id="cidade">
-
-<br/>
-
-
-<label for="estado">Estado</label>
-<input type="text" name="estado" id="estado">
-
-<br/>
-
-
-<label for="cep">CEP</label>
-<input type="text" name="cep" id="cep">
-</div>
-
-
-<br/>
-
-<label for="estado-civil">Estado Civil</label>
-<select name="estado-civil" id="estado-civil">
-<option value="solteiro">Solteiro(a)</option>
-<option value="casado">Casado(a)</option>
-<option value="divorciado">Divorciado(a)</option>
-<option value="viuvo">Viúvo(a)</option>
-<option value="separado">Separado(a)</option>
-</select>
-
-
-<br/>
-
-<fieldset>
-<legend>Preferência de contato</legend>
-<input type="radio" name="contato" id="por-email"
-value="por-email">
-<label for="por-email">E-mail</label>
-<input type="radio" name="contato" id="por-telefone"
-value="por-telefone">
-<label for="por-telefone">Telefone</label>
-</fieldset>
-
-
-<br/>
-
-<div class="termos">
-<input type="checkbox" name="concorda-termo"
-id="concorda-termo">
-<label for="concorda-termo">Li e concordo</label>
-</div>
-<div class="botoes">
-<button class="enviar">Enviar</button>
-<button class="reiniciar">Reiniciar</button>
-</div>
-</form>
-</div>
+            <div class="termos">
+                <input type="checkbox" name="concorda-termo"
+                    id="concorda-termo">
+                <label for="concorda-termo">Li e concordo</label>
+            </div>
+            <div class="botoes">
+                <button class="enviar">Enviar</button>
+                <button class="reiniciar">Reiniciar</button>
+            </div>
+        </form>
+    </div>
 </body>
-
-
 
 </html>
